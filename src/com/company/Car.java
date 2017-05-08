@@ -26,7 +26,7 @@ public class Car {
     * Lion Deer Tiger -> Animals*/
 
     void start(){
-        System.out.println("car is starting"+Main.name);
+        System.out.println("car is starting");
         System.out.println(brand);
         System.out.println(maxSpeed);
 

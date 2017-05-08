@@ -1,22 +1,16 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Main {
-    public static final String name = "YK MOHAN";
     public static void main(String[] args) {
-        Animal.test();
-
+        Movie thor = new Movie("Thor","2011","Kenneth Branagh",1500000);
+        thor.play();
     }
-
-
-    /*
-    * APIE
-    * A - > Abstraction
-    * P - > Polymorphism
-    * I - > Inheritace
-    * E - > Encapsulation*/
 }
+
+
+
+
+
 
 
 
